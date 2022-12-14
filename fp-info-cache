@@ -1,4 +1,4 @@
-20389548965095913
+20391219966825307
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86022,6 +86022,13 @@ varistor SIOV
 0
 2
 2
+ZIF
+ARIES_441-PRS21001-12
+
+
+0
+441
+441
 ember-pcb
 PGA-256_2.0x2.0in_Aries20017
 
