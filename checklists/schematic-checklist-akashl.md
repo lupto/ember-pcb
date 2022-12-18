@@ -6,22 +6,25 @@
 off as invalid.
 * [ ] Verify pin numbers of all schematic symbols against datasheet or external interface specification document (if not yet board proven).
   * [ ] Confirm FMC pins are done correctly
+  * [ ] Confirm FMC orientation is correct (with Xilinx FMC female adapter photo)
+  * [x] Confirm PGA orientation is correct
   * [ ] Confirm EMBER pins are oriented correctly
   * [ ] Confirm EMBER pins are mapped correctly to package
   * [ ] Confirm EMBER pins are mapped correctly to socket
   * [ ] Confirm all 256 EMBER pins are routed
-* [x] Schematic symbol matches chosen component package
+* [x] Schematic symbol matches chosen component package and footprint
 * [x] Thermal pads are connected to correct power rail (may not always be ground)
+  * [x] LP5912 has thermal pads to ground. Hole size on footprint is increased to 10 mil to accommodate design rules.
 * [x] Debug interfaces are not power gated in sleep mode
 
 ## Passive components
-* [ ] Power/voltage/tolerance ratings specified as required
-  * [ ] Regulators work up to 500 mA
-  * [ ] Switches are rated for up to 500 mA
-  * [ ] Capacitors are rated for >3.3V
-  * [ ] Ferrite beads are rated for >3.3V
+* [x] Power/voltage/tolerance ratings specified as required
+  * [x] Regulators work up to 500 mA (200 mA needed)
+  * [x] Switches are rated for up to 300 mA @ 6V (200 mA @ 3.3V needed)
+  * [x] Capacitors are rated for 630 V (3.3V needed)
+  * [x] Ferrite beads are rated for 5A (200 mA needed)
 * [x] Ceramic capacitors appropriately de-rated for C/V curve
-  * [x] Using the setup from TCAM board
+  * [x] Capacitors only used with DC power supplies
 * [x] Polarized components specified in schematic if using electrolytic caps etc.
 
 ## Power supply
@@ -44,7 +47,7 @@ off as invalid.
 
 ### Decoupling
 * [x] Decoupling present for all ICs
-* [ ] Decoupling meets/exceeds vendor recommendations if specified
+* [x] Decoupling meets/exceeds vendor recommendations if specified
 * [x] Bulk decoupling present at PSU
 
 ### General
