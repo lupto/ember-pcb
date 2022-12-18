@@ -507,7 +507,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "outputs/ember-pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
