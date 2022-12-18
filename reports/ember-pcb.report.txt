@@ -1,0 +1,51 @@
+PCB statistics report
+=====================
+- Date: Saturday, December 17, 2022 at 07:33:02 PM
+- Project: ember-pcb
+- Board name: ember-pcb
+
+Board
+-----
+- Width: 4695.00 mils
+- Height: 3935.00 mils
+- Area: 18474825.00 sq. mils
+
+Pads
+----
+- Through hole: 494
+- SMD: 479
+- Connector: 0
+- NPTH: 8
+
+Vias
+----
+- Through vias: 379
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|        | Front Side | Back Side | Total |
+|--------|------------|-----------|-------|
+|THT:    |         7  |        0  |    7  |
+|SMD:    |        20  |        1  |   21  |
+|Total:  |        27  |        1  |   28  |
+|        |            |           |       |
+
+Drill holes
+-----------
+
+| Count | Shape |     X Size |     Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|------------|------------|--------|---------|-------------|------------|
+|   441 | Round | 33.86 mils | 33.86 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|   349 | Round | 10.00 mils | 10.00 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|    31 | Round | 39.37 mils | 39.37 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|    30 | Round | 15.75 mils | 15.75 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|    10 | Round | 59.06 mils | 59.06 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     6 | Round | 10.00 mils | 10.00 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 35.43 mils | 35.43 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 31.50 mils | 31.50 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 98.43 mils | 98.43 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 98.43 mils | 98.43 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 50.00 mils | 50.00 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
