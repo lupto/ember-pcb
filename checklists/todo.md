@@ -19,6 +19,6 @@
 
 ## Wishlist
 
-* [ ] Labels on bottom pins (EASY)
+* [x] Labels on bottom pins (EASY)
 * [ ] Options for SPI input available directly on board
 * [ ] Header pins to enable pin remapping in case of problem
