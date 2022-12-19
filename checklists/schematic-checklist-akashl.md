@@ -32,18 +32,22 @@ off as invalid.
 ### System power input
 
 * [x] Fusing and/or reverse voltage protection at system power inlet
+  * [x] FPGA should take care of this
 * [x] Check total input capacitance and add inrush limiter if needed
+  * [x] Probably ok for test board...
 
 ### Regulators
 
 * [x] Under/overvoltage protection configured correctly if used
   * [x] Implemented in regulators and at FPGA and EMBER macro
 * [x] Verify estimated power usage per rail against regulator rating
+  * [x] Max total current is 200 mA (during RESET), which is within all regulators' ratings (500 mA) and FPGA power rating (3 A)
 * [x] Current-sense resistors on power rails after regulator output caps, not in switching loop
-  * [x] Done on power measurement daughter board...
-* [ ] Remote sense used on low voltage or high current rails
+  * [x] Yes, done on power measurement daughter board...
+* [x] Remote sense used on low voltage or high current rails (N/A)
 * [ ] Linear regulators and voltage reference ICs are stable with selected output cap ESR
-* [ ] Confirm power rail sequencing against device datasheets
+  * [ ] NEED TO DOUBLE CHECK THAT THIS IS OK... OUTPUT CAP CAN BE HIGH IF ALL CAPS ARE POPULATED
+* [x] Confirm power rail sequencing against device datasheets
 
 ### Decoupling
 * [x] Decoupling present for all ICs
